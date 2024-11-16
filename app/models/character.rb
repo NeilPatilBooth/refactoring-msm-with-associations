@@ -10,4 +10,8 @@
 #  movie_id   :integer
 #
 class Character < ApplicationRecord
+
+  belongs_to(:zebra, class_name: "Actor", foreign_key: "id"))
+
+
 end
